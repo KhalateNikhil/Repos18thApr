@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-04T10:46:32.610Z",
+        "line": 3,
+        "name": "validate login functionality",
+        "description": "",
+        "id": "test-orange-hrm-application;validate-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23935444000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on loginpage",
+            "match": {
+              "location": "StepDefinition.Demo1.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1785810900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid credentials",
+            "match": {
+              "location": "StepDefinition.Demo1.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1162897200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validate home page title",
+            "match": {
+              "location": "StepDefinition.Demo1.user_validate_home_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Orange HRM application",
+    "description": "",
+    "id": "test-orange-hrm-application",
+    "keyword": "Feature",
+    "uri": "file:AllFeatureFile/orangehrm.feature",
+    "tags": []
+  }
+]

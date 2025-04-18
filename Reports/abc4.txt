@@ -1,0 +1,5 @@
+
+Scenario: validate login functionality # AllFeatureFile/orangehrm.feature:3
+  Given user is on loginpage           # StepDefinition.Demo1.user_is_on_loginpage()
+  When user enter valid credentials    # StepDefinition.Demo1.user_enter_valid_credentials()
+  Then user validate home page title   # StepDefinition.Demo1.user_validate_home_page_title()
