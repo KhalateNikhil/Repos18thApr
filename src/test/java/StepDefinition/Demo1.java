@@ -44,6 +44,7 @@ public void user_validate_home_page_title()
    String actualtitle=driver.getTitle();
    Assert.assertEquals(actualtitle, "OrangeHRM");
    System.out.println("TC 1 is created by Nikhil Tester");
+   System.out.println("TC 2 is created by Sonali Tester");
 }
 
 }
